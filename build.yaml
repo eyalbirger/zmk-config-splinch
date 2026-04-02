@@ -26,5 +26,6 @@ include:
     shield: splinch_right
   - board: nice_nano
     shield: splinch_dongle
+  - board: nice_nano
+    shield: settings_reset
   
----
