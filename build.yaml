@@ -17,4 +17,14 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
+board: [ "seeeduino_xiao_ble", "nice_nano" ]
+shield: [ "splinch_left", "splinch_right", "splinch_dongle"]
+include:
+  - board: seeeduino_xiao_ble
+    shield: splinch_left
+  - board: seeeduino_xiao_ble
+    shield: splinch_right
+  - board: nice_nano
+    shield: splinch_dongle
+  
 ---
