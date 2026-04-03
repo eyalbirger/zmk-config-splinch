@@ -8,7 +8,7 @@
 
 / {
     chosen {
-        zmk,physical-layout = &physical_layout;
+        zmk,physical-layout = &physical_layout0;
         #if !defined(SHIELD_SPLINCH_DONGLE)
         zmk,kscan =&kscan;
         #endif
