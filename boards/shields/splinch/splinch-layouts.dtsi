@@ -5,7 +5,7 @@
 
 / {
     
-    p_layout: default_layout {
+    p_layout: p_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
