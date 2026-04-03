@@ -15,6 +15,6 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 config BT_MAX_CONN
 default 6
 
-cofig BT_MAX_OAIRED
+config BT_MAX_PAIRED
 
 endif
