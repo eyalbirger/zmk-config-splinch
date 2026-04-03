@@ -11,7 +11,7 @@
 
 
     };
-
+    #if !defined(SHIELD_SPLINCH_DONGLE)
     &kscan {
         // Replace these comments with the GPIO pins in the matrix for the right side.
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
@@ -25,6 +25,7 @@
             , <&gpio0 3 GPIO_ACTIVE_HIGH>
             ;
     };
+    #endif
 
 
 
