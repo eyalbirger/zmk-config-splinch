@@ -22,8 +22,10 @@ shield: [ "splinch_left" ]
 include:
   - board: seeeduino_xiao_ble
     shield: splinch_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: seeeduino_xiao_ble
     shield: splinch_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano
     shield: splinch_dongle
   - board: nice_nano
