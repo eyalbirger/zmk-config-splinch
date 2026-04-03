@@ -5,7 +5,7 @@
 
 / {
     
-    default_layout: default_layout {
+    default_layout0: default_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
@@ -64,13 +64,13 @@
             , <&key_physical_attrs 100 100  1300    300     0     0     0>
             , <&key_physical_attrs 100 100  1400    300     0     0     0>
             , <&key_physical_attrs 100 100  300     300     0     0     0>
-            , <&key_physical_attrs 100 100  400     400     0     0     0>
-            , <&key_physical_attrs 100 100  500     400     0     0     0>
-            , <&key_physical_attrs 100 100  600     400     0     0     0>
-            , <&key_physical_attrs 100 100  900     400     0     0     0>
-            , <&key_physical_attrs 100 100  1000    400     0     0     0>
-            , <&key_physical_attrs 100 100  1100    400     0     0     0>
-            , <&key_physical_attrs 100 100  1200    400     0     0     0>
+            , <&key_physical_attrs 100 100  400     400     0     0     0>// lower layer keys
+            , <&key_physical_attrs 100 100  500     400     0     0     0>// lower layer keys
+            , <&key_physical_attrs 100 100  600     400     0     0     0>// lower layer keys
+            , <&key_physical_attrs 100 100  900     400     0     0     0>// lower layer keys
+            , <&key_physical_attrs 100 100  1000    400     0     0     0>// lower layer keys
+            , <&key_physical_attrs 100 100  1100    400     0     0     0>// lower layer keys
+            , <&key_physical_attrs 100 100  1200    400     0     0     0>// lower layer keys
             , <&key_physical_attrs 100 100  600     150     0     0     0> // side keys
             , <&key_physical_attrs 100 100  600     250     0     0     0> // side keys
             , <&key_physical_attrs 100 100  900     150     0     0     0> // side keys
