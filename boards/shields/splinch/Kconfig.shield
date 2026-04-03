@@ -1,8 +1,8 @@
 config SHIELD_SPLINCH_LEFT
-    def_bool $(shields_list_contains,splinch_left)
+    def_bool $(xiao_ble,splinch_left)
 
 config SHIELD_SPLINCH_RIGHT
-    def_bool $(shields_list_contains,splinch_right)
+    def_bool $(xiao_ble,splinch_right)
 
 config SHIELD_DONGLE
-    def_bool $(shields_list_contains, splinch_dongle)
+    def_bool $(nice_nano, splinch_dongle)
