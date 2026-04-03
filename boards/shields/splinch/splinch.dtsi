@@ -35,7 +35,7 @@
                 , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                 , <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                 ;
-        };
+        }; 
     #endif
 
     default_transform: default_transform {
