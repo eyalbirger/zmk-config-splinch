@@ -3,11 +3,12 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
+        zmk,matrix-transform = &default_transform;
     };
 
     mock_kscan: kscan {
         compatible = "zmk,kscan-mock";
-        columns = <14>; 
+        columns = <14>;
         rows = <5>;
         events = <0>;
     };
