@@ -1,0 +1,15 @@
+#include "splinch.dtsi" 
+
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zmk,physical-layout = &default_layout;
+    };
+
+    mock_kscan: kscan {
+        compatible = "zmk,kscan-mock";
+        columns = <14>; // cols
+        rows = <5>;    // rows
+        events = <0>;
+    };
+};
