@@ -1,14 +1,14 @@
 #include "splinch.dtsi"
 #include "splinch-layouts.dtsi"
 
-&default_layout {
+&p_layout {
     transform = <&default_transform>;
 };
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &default_layout;
+        zmk,physical-layout = &p_layout;
     };
 
     mock_kscan: mock_kscan_0 {
